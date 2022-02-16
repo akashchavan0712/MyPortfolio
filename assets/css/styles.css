@@ -959,7 +959,7 @@ body.light-theme{
   }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 320px){
   .nav__menu{
     padding: 1rem 1.5rem;
   }
