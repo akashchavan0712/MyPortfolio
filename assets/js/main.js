@@ -126,22 +126,22 @@ themeButton.addEventListener('click', () => {
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '100px',
+    distance: '45px',
     duration: 2500,
     delay: 400,
 })
 
 sr.reveal('.home__data')
-sr.reveal('.home__handle', {delay:600})
-sr.reveal('.home__social, .home__scroll', {delay:600 ,origin: 'bottom'})
-sr.reveal('.home__social, .home__scroll', {delay:600 ,origin: 'bottom'})
-sr.reveal('.about__img', {delay:400 ,origin: 'left'})
-sr.reveal('.about__data', {delay:400 ,origin: 'right'})
-sr.reveal('.services__container', {delay:300 ,origin: 'left'})
-sr.reveal('.work', {delay:300 ,origin: 'right'})
-sr.reveal('.skills', {delay:300 ,origin: 'top'})
-sr.reveal('.testimonial', {delay:300 ,origin: 'left'})
-sr.reveal('.contact', {delay:300 ,origin: 'top'})
+sr.reveal('.home__handle', {delay:200})
+sr.reveal('.home__social, .home__scroll', {delay:300 ,origin: 'bottom'})
+sr.reveal('.home__social, .home__scroll', {delay:300 ,origin: 'bottom'})
+sr.reveal('.about__img', {delay:250 ,origin: 'left'})
+sr.reveal('.about__data', {delay:250 ,origin: 'right'})
+sr.reveal('.services__container', {delay:200 ,origin: 'left'})
+sr.reveal('.work', {delay:100 ,origin: 'right'})
+sr.reveal('.skills', {delay:150 ,origin: 'top'})
+sr.reveal('.testimonial', {delay:100 ,origin: 'left'})
+sr.reveal('.contact', {delay:150 ,origin: 'top'})
 
 
 
